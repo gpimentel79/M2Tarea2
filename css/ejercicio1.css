@@ -1,0 +1,64 @@
+.contenedor{
+	
+	/*background-color: blue;*/
+	height: 450px;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	margin:0 auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	
+	/*flex-direction:column;*/
+	align-items: flex-end;
+
+	/**align-items: flex-start;
+	/*align-items: center;*/
+	  
+	/* align-items: baseline; */
+}
+
+
+.rojo{
+	/* position:static; */
+	
+	font-size: 15px;
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.azul{
+	/* position:static; */
+
+	font-size: 15px;
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	color: white;	  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+
+.verde{
+	/* position:static; */
+
+	font-size: 15px;
+	width: 150px;
+	height: 150px;
+	background-color: green;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
